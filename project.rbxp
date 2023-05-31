@@ -1,0 +1,30 @@
+{
+    "fileVersion": 1,
+    "fastFlags": {
+        "overrides": {
+            "FFlagEnableLoadModule": "true"
+        }
+    },
+    "instanceHierarchy": {
+        "name": "storybook.place",
+        "tree": {
+            "$className": "DataModel",
+
+            "ReplicatedStorage": {
+                "$className": "ReplicatedStorage",
+
+                "Packages": {
+                    "$path": "Packages",
+
+                    "LuaOnboardingSocial": {
+                        "$path": "src",
+
+                        "Onboarding.storybook": {
+                            "$path": "storybook"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

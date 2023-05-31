@@ -1,0 +1,3 @@
+{
+	"robloxLuauLSP.cli.extraArgs": ["--load.place", "project.rbxp"]
+}

@@ -1,0 +1,14 @@
+{
+	"name": "tests",
+	"tree": {
+		"$className": "Folder",
+
+		"Packages": {
+			"$path": "Packages",
+
+			"LuaOnboardingSocial": {
+				"$path": "src"
+			}
+		}
+	}
+}

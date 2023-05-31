@@ -1,0 +1,16 @@
+[package]
+name = "LuaOnboardingSocial"
+version = "0.0.0"
+authors = ["Roblox Social Team"]
+content_root = "src"
+
+[dependencies]
+UIBlox = { git = "https://github.com/Roblox/uiblox", rev = "master" }
+Roact = { git = "https://github.com/roblox/roact-alignment", rev = "v17.0.1-rc.10", package = "RoactCompat" }
+
+[dev_dependencies]
+Jest = "github.com/roblox/jest-roblox@1.1.2"
+
+# Dependencies like UIBlox use their own versions of Roact
+[config.patch."github.com/roblox/roact"]
+Roact = { git = "https://github.com/roblox/roact-alignment", rev = "v17.0.1-rc.10", package = "RoactCompat" }
